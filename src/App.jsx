@@ -9,7 +9,7 @@ const appData = [
   {
     id: 'definition',
     name: 'Definition',
-    icon: '/src/assets/def.png',
+    icon: './src/assets/def.png',
     content: {
       heading: 'Definition of Mathematics',
       type: 'text',
@@ -19,7 +19,7 @@ const appData = [
   {
     id: 'where-is-math',
     name: 'Where is mathematics',
-    icon: '/src/assets/wim.png',
+    icon: './src/assets/wim.png',
     content: {
       heading: 'Where is Mathematics',
       type: 'text',
@@ -29,7 +29,7 @@ const appData = [
   {
     id: 'roles',
     name: 'Roles of Mathematics',
-    icon: '/src/assets/rim.png',
+    icon: './src/assets/rim.png',
     content: {
       heading: 'What Role Does Mathematics Play in Our World',
       type: 'bullet',
@@ -44,7 +44,7 @@ const appData = [
   {
     id: 'patterns',
     name: 'Patterns and Numbers',
-    icon: '/src/assets/pan.png',
+    icon: './src/assets/pan.png',
     content: {
       heading: 'Patterns and Numbers in Nature and the World',
       type: 'text',
@@ -54,7 +54,7 @@ const appData = [
   {
     id: 'importance',
     name: 'Importance of Mathematics',
-    icon: '/src/assets/iom.png',
+    icon: './src/assets/iom.png',
     content: {
       heading: 'Importance of Mathematics in Education',
       type: 'numbered',
@@ -72,34 +72,34 @@ const appData = [
     id: 'examples-in-nature',
     name: 'Examples of Mathematics',
     windowTitle: 'Examples of Mathematics in Nature',
-    icon: '/src/assets/eom.png',
+    icon: './src/assets/eom.png',
     content: {
       heading: 'Examples of Mathematics in Nature',
       type: 'carousel',
       items: [
         {
           title: 'Concentric Circle',
-          image: '/src/assets/conc.png',
+          image: './src/assets/conc.png',
           description: 'Concentric circles represent sets, layers, or systems that are organized around a common center, where each circle shows a different level, distance, or scope but is still related to the same core.'
         },
         {
           title: 'Fern Leaf Pattern',
-          image: '/src/assets/fern.png',
+          image: './src/assets/fern.png',
           description: 'The fern leaf pattern is a fractal pattern, where the overall shape is made up of smaller parts that look similar to the whole.'
         },
         {
           title: 'Honeycomb Pattern',
-          image: '/src/assets/honey.png',
+          image: './src/assets/honey.png',
           description: 'The honeycomb pattern represents hexagonal tiling and optimization, showing how mathematics finds the most efficient way to divide space with equal shapes and minimal material.'
         },
         {
           title: 'Sunflower Pattern',
-          image: '/src/assets/sunflwr.png',
+          image: './src/assets/sunflwr.png',
           description: 'The sunflower pattern represents Fibonacci numbers and spiral geometry, showing how mathematics helps nature arrange objects efficiently to save space and maximize growth.'
         },
         {
           title: 'Peacock Pattern',
-          image: '/src/assets/peac.png',
+          image: './src/assets/peac.png',
           description: 'The peacock pattern represents symmetry, balance, and repetition. It shows how shapes can be arranged evenly around a center using geometric symmetry, which is used in art, design, and architecture.'
         }
       ]
