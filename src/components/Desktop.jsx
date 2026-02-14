@@ -6,8 +6,6 @@ function Desktop({ apps, onAppDoubleClick }) {
       className="w-full h-full bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: 'url(/src/assets/placeholderWallpaper.png)' }}
     >
-      {/* App Icons Grid - Flows vertically, wraps to new column */}
-      {/* Outer div holds padding so the grid's height is unaffected by it */}
       <div
         className="p-6 box-border"
         style={{ height: '100%' }}
@@ -32,7 +30,7 @@ function Desktop({ apps, onAppDoubleClick }) {
         </div>
       </div>
       
-      {/* Recycle Bin - Bottom Right */}
+      {/* recycle bin*/}
       <div className="absolute bottom-6 right-6">
         <AppIcon
           name="Recycle Bin"

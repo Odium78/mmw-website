@@ -13,7 +13,6 @@ function AppIcon({ name, icon, onDoubleClick }) {
       clickTimeout.current = null;
       onDoubleClick();
     } else {
-      // First click - select icon
       setIsSelected(true);
       clickTimeout.current = setTimeout(() => {
         clickTimeout.current = null;
@@ -73,7 +72,7 @@ function AppIcon({ name, icon, onDoubleClick }) {
         </span>
       </div>
       
-      {/* Linux-style Tooltip - follows mouse */}
+      {/* linux tooltip */}
       {showTooltip && (
         <div 
           className="linux-tooltip"
